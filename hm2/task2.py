@@ -33,7 +33,7 @@ fraction_2_F = fractions.Fraction(f'{fraction_2[0]}/{fraction_2[1]}')
 result_sum_F = fraction_1_F + fraction_2_F
 result_multi_F = fraction_1_F * fraction_2_F
 
-print('С использованием встроенного модуля fractions результаты будут следующими:')
+print('After fraction:')
 
 print(f'Сумма = {result_sum_F}')
 print(f'Результат умножения =  {result_multi_F}')
